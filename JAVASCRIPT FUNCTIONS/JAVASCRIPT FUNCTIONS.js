@@ -41,7 +41,7 @@ function thirdfunction(a=0,b=0){ // function with default parameters
 
 thirdfunction(3)
 
-// second way of defining function using const,let,var keyword but in this case let and const do not hoist as undefined to the top of their block scope.
+// second way of defining function using const,let,var keyword but in this case let and const do not hoist as undefined to the top of their block scope. also called as anonymous function 
 const printme=function() {
     console.log("printing..");
 }

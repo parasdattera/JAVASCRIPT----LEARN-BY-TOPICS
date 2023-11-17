@@ -7,10 +7,12 @@ So, we can also pass functions as parameters to other functions and call them in
 let a =100;
 let b=200;
 
-function print(callback) {      
-    callback();
+function print(callback) {      // taking function as argument
+    callback();  // and we can just call the function as per need
 }
 
+
+//calling print function
 print(
     function callback(){
         console.log("Hello World")
@@ -18,3 +20,9 @@ print(
         
     }
 )
+
+function named(){
+    console.log("named function")
+}
+
+print(named);
