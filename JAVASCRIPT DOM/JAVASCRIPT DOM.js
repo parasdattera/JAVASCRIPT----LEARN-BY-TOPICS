@@ -113,3 +113,30 @@ element.insertBefore(para,child);
 const takingbodyref = document.querySelector('body')  // creating object reference of body
 const takingh1ref = document.querySelector('h1');   // creating object reference of h1 element
 takingbodyref.removeChild(takingh1ref);
+
+
+// if only need text from element or set text to element then use innerText otherwise use innerHTML 
+
+// to get text content from html tag use textContent
+
+console.log(document.querySelector('ul li').textContent);
+
+// to get all classes on dom element 
+
+const descriptionrefere=document.getElementsByClassName('description')[0]
+console.log(descriptionrefere.classList)
+
+// to add new class into this element
+
+descriptionrefere.classList.add('bold')
+
+
+// to remove class from element
+
+descriptionrefere.classList.remove('description')
+
+
+// to dynamically manupulate syle of document we can use .style.fontSize,color,etc
+descriptionrefere.style.fontSize ='30px';
+descriptionrefere.style.color ='red';
+

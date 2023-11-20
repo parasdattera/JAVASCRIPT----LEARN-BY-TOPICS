@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM MANIPULATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--mouse event handler-->
+    <div class="container" id="container">
+        <div class="box" id="box-1" onclick="myFunction()">box-1</div>
+        <div class="box" id="box-2" onmouseover="mouseOver()">box-2</div>
+        <div class="box" id="box-3" onmousemove="mouseMove()">box-3</div>
+        <div class="box" id="box-4" onmouseleave="mouseLeave()">box-4</div>
+    </div>
+
+    <!--keyboard event handlers-->
+
+    <form action="">
+        <input type="text" id="nameInput" onkeypress="keyPressEvent()">
+        <input type="text" id="nameInput" onkeydown="keyDownEvent()">
+        <input type="text" id="nameInput" onkeyup="keyUpEvent()">
+        <input type="text" id="nameInput" onkeydown="keyDownEvent()" onkeypress="keyPressEvent()" onkeyup="keyUpEvent()">
+
+    </form>
+    
+    <script src="JAVASCRIPT DOM EVENT HANDLING.js"></script>
+</body>
+</html>

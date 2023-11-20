@@ -24,3 +24,27 @@ I.By using an event handler -- JavaScript provides various kinds of
 function myFunction(){
     console.log("box 1 was clicked.")
 }
+
+function mouseOver(){
+    console.log('mouse over')
+}
+
+function mouseMove(){
+    console.log('mouse move')
+}
+
+function mouseLeave(){
+    console.log("mouse leave")
+}
+
+function keyPressEvent(){
+    console.log("key was pressed")
+}
+
+function keyDownEvent(){
+    console.log('key was down')
+}
+
+function keyUpEvent(){
+    console.log('key up')
+}
