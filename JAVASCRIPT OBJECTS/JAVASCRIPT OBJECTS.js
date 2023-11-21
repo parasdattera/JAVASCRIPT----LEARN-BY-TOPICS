@@ -149,3 +149,12 @@ for (key in object) {
 for (var a in Dell_Laptop){
     console.log(Dell_Laptop[a])
 }
+
+
+
+// we can also do create object like this
+const objectnew ={
+    'f_name':'Paras',
+    'l_name':'Dattera'
+}
+console.log(objectnew.f_name)
