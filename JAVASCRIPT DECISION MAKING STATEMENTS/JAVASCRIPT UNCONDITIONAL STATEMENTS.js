@@ -23,10 +23,42 @@ Return statement    ---     The return statement stops the execution of a
 
 // sample break statement  -- using for loop
 
-for(let i=1;i<=10;i++){
-    if(i==5){
-        break;
-    }
-    console.log(i)
+// for(let i=1;i<=10;i++){
+//     if(i==5){
+//         break;
+//     }
+//     console.log(i)
 
+// }
+
+// using while loop
+// let i=10
+// while(i>=1){
+//     if(i==5){
+//         i--;
+//         break;
+//     }
+//     console.log(i)
+//     i--;
+// }
+
+
+
+// sample continue statement -- using for loop
+
+// for(let i=5;i>1;i--){
+//     if(i>3){
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+
+// break statement  -- using function
+
+function myFunction(){
+    let a=100
+    return console.log(b=a+200)
 }
+
+myFunction()
