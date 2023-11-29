@@ -1,0 +1,15 @@
+Modules are nothing but JavaScript files having functions , variables , codes that can be reused when needed in other files
+
+exports keyword is used to make code from one file able to be get imported to another file
+
+and import keyword is used to import the module 
+
+
+Good authors divide their books into chapters and sections; good programmers divide their programs into modules.
+
+Like a book chapter, modules are just clusters of code
+
+
+Module pattern --
+The Module pattern is used to mimic the concept of classes (since JavaScript doesn’t natively support classes) so that we can store both public and private methods and variables inside a single object — similar to how classes are used in other programming languages like Java or Python. That allows us to create a public facing API for the methods that we want to expose to the world, while still encapsulating private variables and methods in a closure scope.
+

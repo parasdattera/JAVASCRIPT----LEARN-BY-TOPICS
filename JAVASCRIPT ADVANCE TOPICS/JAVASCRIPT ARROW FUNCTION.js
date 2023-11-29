@@ -2,19 +2,8 @@
 Arrow function {()=>} is concise way of writing JavaScript functions in shorter way
 
 
-() => expression
-
-param => expression
-
-(param) => expression
-
-(param1, paramN) => expression
 
 () => {
-  statements
-}
-
-param => {
   statements
 }
 
@@ -31,3 +20,13 @@ const myfunction = ()=>{
 }
 
 myfunction();
+
+// sample other way in sinle line
+
+let welcome = (name,age) => `Welcome ${name} - ${age}`;
+console.log(welcome("Paras Dattera",23))
+
+// if parameter is only one then 
+
+let welcome2 = name =>`Welcome ${name}`;
+console.log(welcome2("Paras Dattera"))
