@@ -123,24 +123,28 @@ The finally() method gets executed when the promise is either resolved successfu
 
 // real life sample of using promise division btw two numbers
 
-function prom(a,b){
-    return new Promise(function(resolve,reject){
-        console.log("Fetching data wait..")
-        var c= a/b;
-        setTimeout(() => {
-            if(a,b){
-                resolve(`your answer is : ${c}`)
-            }else{
-                reject("failed to calculate.")
-            }
-        }, 2000);
-    });
+// function prom(a,b){
+//     return new Promise(function(resolve,reject){
+//         console.log("Fetching data wait..")
+//         var c= a/b;
+//         setTimeout(() => {
+//             if(a,b){
+//                 resolve(`your answer is : ${c}`)
+//             }else{
+//                 reject("failed to calculate.")
+//             }
+//         }, 2000);
+//     });
 
-}
+// }
 
 
-prom(9,2).then((result)=>{
-    console.log(result);
-}).catch((error)=>{
-    console.log(error);
-     });
+// prom(9,0).then((result)=>{
+//     console.log(result);
+// }).catch((error)=>{
+//     console.log(error);
+//      });
+
+
+
+    
