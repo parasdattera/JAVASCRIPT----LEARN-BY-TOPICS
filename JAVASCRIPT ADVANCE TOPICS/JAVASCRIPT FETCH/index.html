@@ -6,9 +6,27 @@
     <title>Learning Fetch</title>
 </head>
 <body>
-    <button onclick="clickevent()" id="btn">Click</button>
+    <button onclick="clickevent()" id="btn">Click to get text data</button>
     <p id="demo">Text will appear here!</p>
+    <br>
+    <br>
+    <button onclick="clickevent2()" id="btn2">Click to get json data</button>
 
+    <p id="demo2">Json data will appear on document</p>
+
+    <br>
+    <button onclick="clickevent3()">click to get Json data from local file </button>
+    <p id="demo3">Json data from local file will appear here</p>
+
+    <br>
+    <form id="myForm">
+        Title <input type="text" id="titleText"> <br><br>
+        Body <input type="text" id="bodyText"> <br><br>
+        User Id <input type="text" id="userid"> <br><br>
+        <input type="submit" id="saveForm">
+    </form>
+
+    
     <script src="FETCH BASICS.js"></script>
 </body>
 </html>

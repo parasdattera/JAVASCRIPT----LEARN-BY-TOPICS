@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Kumar Sanu",
+        "age": "25",
+        "city": "Goa"
+    },
+    {
+        "name": "Sonu",
+        "age": "23",
+        "city": "Agra"
+    },
+    {
+        "name": "Udit",
+        "age": "26",
+        "city": "Sanu"
+    },
+    {
+        "name": "Nigam",
+        "age": "26",
+        "city": "Delhi"
+    }
+]
