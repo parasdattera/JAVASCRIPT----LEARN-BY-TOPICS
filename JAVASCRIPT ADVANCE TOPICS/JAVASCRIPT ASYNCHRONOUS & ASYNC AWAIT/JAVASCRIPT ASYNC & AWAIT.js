@@ -47,15 +47,15 @@ await method is work only with async function it is used to give asynchronous na
 
 
 
-async function test1(){
-    console.log("1");
-    await console.log("2");
-    console.log("3");
-    console.log("4");
-}
+// async function test1(){
+//     console.log("1");
+//     await console.log("2");
+//     console.log("3");
+//     console.log("4");
+// }
 
-test1();
-console.log("5");
+// test1();
+// console.log("5");
 
 
 // real life sample -- we can use async await in real life programs while working with apis as getting data from server can take time so to cover that amount of time and processes we use async and await 
@@ -64,12 +64,17 @@ console.log("5");
 // sample -- getting data from api/url/local file
 
 async function test2(){
-    console.log("2");
-    
+    console.log("2"); // 3 execution
+    const response = await fetch("data.json"); // 4 execution
+    console.log("2") // 8 execution
+    const students = await response.json(); // 9 execution
+    return students; // 10 execution
 }
 
-console.log("1");
-let a = test2();
-console.log("3");
+console.log("1"); // 1 execution
+let a = test2(); // 2 execution - async function will be called
+console.log("3"); // 5 execution
 
-console.log(a);
+console.log(a);  // 6 execution -- print the result of async function
+
+console.log("4"); // 7 execution 

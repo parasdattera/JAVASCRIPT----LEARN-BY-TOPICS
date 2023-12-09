@@ -7,7 +7,8 @@ do/while loop
 for loop
 forEach
 for/in loop
-
+for/of loop
+map()
 
 */
 
@@ -51,4 +52,39 @@ var e = {
 
 for(var key in e){
     console.log(key + " : "+e[key] )
+}
+
+
+/* for/of  -- syntax
+
+for (variable of iterable) {
+  // code block to be executed
+}
+
+*/
+
+// sample
+
+const cars = ["BMW","Volvo","Mini"]
+
+let text ="";
+for (let x of cars){
+    text+=x +"\n";
+}
+console.log(text);
+
+
+/* map() function is used for iterating in arrays 
+
+*/
+
+var arr = [1,2,3,4,5,6,7];
+
+var newarr = arr.map(test);
+
+console.log(newarr);
+
+function test(x){
+    return x * 10;
+
 }
