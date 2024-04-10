@@ -28,9 +28,9 @@ fill()
 */
 
 // sort 
-// var a =["Sanjay"," Aman" , "Rehman", "Karan" ];
-// a.sort(); // albhabetically sorting 
-// console.log(a)
+var a =["Sanjay"," Aman" , "Rehman", "Karan" ];
+a.sort(); // albhabetically sorting 
+console.log(a)
 
 // reverse
 // a.reverse()
@@ -49,11 +49,11 @@ fill()
 // console.log(a)
 
 // concat -- merging two array or string , join -- merge elements of array into one string element
-// var b = a.concat("Rahul","Vivek")
-// var c = ['Aman']
-// var d = c.concat(b)
-// console.log(c)
-// console.log(d)
+var b = a.concat("Rahul","Vivek")
+var c = ['Aman']
+var d = c.concat(b)
+console.log(c)
+console.log(d)
 
 // var e = d.join("-");
 // console.log(e)

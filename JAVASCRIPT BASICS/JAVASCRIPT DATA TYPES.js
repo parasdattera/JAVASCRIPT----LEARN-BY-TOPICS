@@ -20,19 +20,19 @@ JavaScript is a dynamic and loosely typed, or duck typed language. It means that
 // variable created by let only accessed inside the block of code in which they are created 
 // variable created by using var can be access
 
-// function myfunction(){
-//     var x =1;
-//     let z=5;
-//     {
-//         let y =2; // only accessed in this block
-//         var p=10 // this var will be accessed outside of the block as well
-//         h=z+y+x
-//         console.log(h)
+function myfunction(){
+    var x =1;
+    let z=5;
+    {
+        let y =2; // only accessed in this block
+        var p=10 // this var will be accessed outside of the block as well
+        h=z+y+x
+        console.log(h)
 
-//     }
-//     console.log(p)
-// }
-// myfunction();
+    }
+    console.log(p)
+}
+myfunction();
 
 
 
@@ -64,45 +64,45 @@ referenced data types (non primitive data types)
 
 // sample primitive data types
 
-var num=5
-console.log(typeof(num))
+// var num=5
+// console.log(typeof(num))
 
-var str="hello"
-console.log(typeof(str))
+// var str="hello"
+// console.log(typeof(str))
 
-var bool=true
-console.log(typeof(bool))
+// var bool=true
+// console.log(typeof(bool))
 
 
 // sample Trivial data types (special data types)
 
-var a;
-console.log(a)
+// var a;
+// console.log(a)
 
-var b=null
-console.log(b)
+// var b=null
+// console.log(b)
 
 
 // sample referenced data types (non primitive data types)
 
-var myobj={} // empty object
-console.log(typeof(myobj))
+// var myobj={} // empty object
+// console.log(typeof(myobj))
 
-myobj={
-    firstname:"paras",
-    lastname:"dattera"
-}
-console.log(myobj.firstname+" "+myobj.lastname)
-
-
-var arr=[]; // array are type of object in js 
-console.log(typeof(arr))
-arr=[1,2,5,3,6]
-console.log(arr[0])
+// myobj={
+//     firstname:"paras",
+//     lastname:"dattera"
+// }
+// console.log(myobj.firstname+" "+myobj.lastname)
 
 
-function sum(x,y){ // creating a function sum
-    return x+y;
-}
+// var arr=[]; // array are type of object in js 
+// console.log(typeof(arr))
+// arr=[1,2,5,3,6]
+// console.log(arr[0])
 
-console.log(sum(2,3))
+
+// function sum(x,y){ // creating a function sum
+//     return x+y;
+// }
+
+// console.log(sum(2,3))

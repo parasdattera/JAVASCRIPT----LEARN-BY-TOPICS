@@ -6,7 +6,11 @@ The key differences among the three variable declarations with var, let and cons
 Variable reassignment -- while declaring variable with const keyword we 
                         cannot reassign variable with new value
 
-Variable scope --All JavaScript variables declared with var keyword are
+Variable scope --
+                        var == function scoped variable
+                        let == block scoped variable
+
+All JavaScript variables declared with var keyword are
                          called function scoped variables because they have function scope.
                          The function scoped variables declared outside the function are accessible globally to the script (i.e. throughout the script).
                          Similarly, when the function scoped variables are declared inside the function, they are accessible throughout the function, but not outside the function.
@@ -44,15 +48,18 @@ Variable redeclaration -- When a variable is declared with the same name
 
 // const a=100
 // console.log(a)
-// a=0// this will give error at runtime
+// // a=0// this will give error at runtime
 // console.log(a)
 
 // console.log(typeof(a))
-// var a =10;
+// // var a =10;
 
 
 
-greet() // greet function will work here
-function greet(){
-    console.log("hello , good morning!")
-}
+// greet() // greet function will work here
+// function greet(){
+//     console.log("hello , good morning!")
+// }
+
+
+

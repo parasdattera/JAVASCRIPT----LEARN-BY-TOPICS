@@ -9,7 +9,7 @@ var arr = [5,6,8,9];
 var newarr = arr.map(test);
 console.log(newarr)
 function test(x){
-    return x*10;
+    return x+10;
 }
 
 // sample with array of objects
