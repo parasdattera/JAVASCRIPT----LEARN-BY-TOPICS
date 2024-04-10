@@ -26,18 +26,18 @@ pow(number): It used to get the power of an integer.
 // using index.html file for demonstrating all functions
 
 
-// alert
-alert("this is alert function!")
+// // alert
+// alert("this is alert function!")
 
-// confirm
+// // confirm
 
-let text;
-if(confirm("This is confirm function Press ok button or cancel !")==true){
-    text="you pressed ok!";
-}
-else{
-    text="you cancelled!";
-}
+// let text;
+// if(confirm("This is confirm function Press ok button or cancel !")==true){
+//     text="you pressed ok!";
+// }
+// else{
+//     text="you cancelled!";
+// }
 
 // prompt
 
@@ -50,17 +50,17 @@ function myFunction() {
   }
 
 
-// write
+// // write
 
-document.write("Hello world!")
+// document.write("Hello world!")
 
 
-// date
+// // date
 
-const d = new Date();
-document.getElementById("demodate").innerHTML = d;
+// const d = new Date();
+// document.getElementById("demodate").innerHTML = d;
 
-// select -- used to selects all the text in a area 
+// // select -- used to selects all the text in a area 
 
 function selectText(){
     document.getElementById('selectedText').select();
@@ -68,26 +68,26 @@ function selectText(){
 
 
 
-// parselnt
+// // parselnt
 
-let MyName = "20"
-document.write(parseInt(MyName))
-document.write("<br>")
+// let MyName = "20"
+// document.write(parseInt(MyName))
+// document.write("<br>")
 
-// parseFloat
+// // parseFloat
 
-let MyName2 = "20.567"
-document.write(parseFloat(MyName2))
-document.write("<br>")
+// let MyName2 = "20.567"
+// document.write(parseFloat(MyName2))
+// document.write("<br>")
 
 
-// sqrt 
+// // sqrt 
 
-let numberA = Math.sqrt(4);
-document.write(numberA)
-document.write("<br>")
+// let numberA = Math.sqrt(4);
+// document.write(numberA)
+// document.write("<br>")
 
-//pow
+// //pow
 
-let numberB= Math.pow(2,4);
-document.write(numberB)
+// let numberB= Math.pow(2,4);
+// document.write(numberB)
